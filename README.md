@@ -29,3 +29,7 @@ O primeiro e o quarto axiomas garantem que haja uma unidade mínima e que junto 
 O intervalo garantido $[0, s(0)]$ nos permite traçar que $(s(0))$ está a $1$ uma posição a mais de $0$, pois o intervalo segue uma orientação que parte da esquerda em direção a direita. Com $(s(0))$ a uma posição a direita de $0$, podemos dizer que está a $1$ uma posição a mais de $0$. Para que essa relação seja visualizada usa-se o símbolo de $+$, assim escrevemos que: $s(0) = 0 + 1$, portanto: $s(0) = 1$. Ainda, se buscassemos um sucessor $s(1) = 1 + 0$, "o sucessor de $1$ está a zero posições de $1$" chegaríamos ao mesmo resultado $1$, pois intuitivamente andar zero posições para a direita significa não sair do lugar. Dessa forma, chegamos a propriedade da comutativa da adição, $0 + 1 = 1 + 0$, ou $a + b = b + a$. De mesma forma, é possível dizer que $(0 + 1) + 1$ e $0 + (1 + 1)$ são iguais, nisto consiste a associativa. Note que se trata de um processo intuitivo, sem o rigor formal para fazer qualquer definição. Por exemplo, o próprio símbolo do número $1$ ou a propriedade da adição não são definidos pelos $5$ axiomas e só serão definidos num processo posterior.
 
 [Em construção...]
+
+### Módulos do Repositório
+
+* **[Exercícios de Iniciação à Aritmética de Abramo Hefez](./Exercícios-de-Iniciação-à-Aritmética-de-Abramo-Hefez)**
