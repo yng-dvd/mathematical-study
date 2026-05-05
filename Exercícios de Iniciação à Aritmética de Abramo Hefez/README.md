@@ -1,5 +1,5 @@
 # Exercícios: Aritmética (Abramo Hefez)
-
+ 
 Resoluções e formalizações analíticas dos problemas capitulares da obra *Aritmética* (Abramo Hefez / Sociedade Brasileira de Matemática). O escopo deste módulo abrange a transição entre a intuição estrutural dos números naturais e o rigor da lógica de primeira ordem.
 
 ## Conteúdo Estrutural
