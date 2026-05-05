@@ -32,4 +32,4 @@ O intervalo garantido $[0, s(0)]$ nos permite traçar que $(s(0))$ está a $1$ u
 
 ### Módulos do Repositório
 
-* **[Exercícios de Iniciação à Aritmética de Abramo Hefez](./Exercícios-de-Iniciação-à-Aritmética-de-Abramo-Hefez)**
+* **([./Exercícios-de-Iniciação-à-Aritmética-de-Abramo-Hefez](https://github.com/yng-dvd/mathematical-study/tree/5390336a0cebdd207a6f6fb1d99740330d70e396/Exerc%C3%ADcios%20de%20Inicia%C3%A7%C3%A3o%20%C3%A0%20Aritm%C3%A9tica%20de%20Abramo%20Hefez))**
