@@ -40,7 +40,9 @@ O primeiro e o quarto axiomas garantem que haja uma unidade mínima e que junto 
 
 ---
 
-## 3. Propriedades da Adição
+## 3. Propriedades
+
+### 3.1 Adição
 
 O intervalo garantido $[0, s(0)]$ nos permite traçar que $(s(0))$ está a $1$ uma posição a mais de $0$, pois o intervalo segue uma orientação que parte da esquerda em direção a direita. Com $(s(0))$ a uma posição a direita de $0$, podemos dizer que está a $1$ uma posição a mais de $0$. 
 
@@ -50,6 +52,27 @@ Dessa forma, chegamos a propriedade da comutativa da adição, $0 + 1 = 1 + 0$, 
 
 > **Nota:** Trata-se de um processo intuitivo, sem o rigor formal para fazer qualquer definição. Por exemplo, o próprio símbolo do número $1$ ou a propriedade da adição não são definidos pelos $5$ axiomas e só serão definidos num processo posterior.
 
+### 3.2 Subtração
+
+A subtração é definida como a inversa da adição. Ainda que não fornecida, essa definição nos ajuda a traçar certas relações entre a adição e a subtração:
+* (a + b) - b = a
+* (b - a) + a = b, para b >= a;
+* (a - b) - c = a - (b + c), para a >= b;
+* a - (b - c) = (a - b) + c
+* (a - b) - c != a - (b - c) Ex.: (3 - 1) - 2 = 0 e 3 - (1 - 2) = ∅ 
+
+> **Nota:** A operação da subtração não tem as propriedades da comutativa e associativa.
+
+### 3.3 Múltiplos
+
+É considerado múltiplo de a ∈ N e k ∈ N todo produto b tal que b = a*k. Assim:
+
+* a é o fator;
+* k é o multiplicador;
+* b é o múltiplo (o produto).
+
+Assim, podemos dizer que, se b = 0, então k = 0 ou a = 0.
+> **Nota:** Como b = 0 * k é sempre igual 0 para qualquer que seja k ∈ N, dizemos que b (o múltiplo) de zero é apenas o próprio zero. Assim, o zero é múltiplo de qualquer número (k), mas só o zero é múltiplo de zero.
 ---
 
 ## 4. Teoremas
