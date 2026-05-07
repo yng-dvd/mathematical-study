@@ -1,7 +1,3 @@
-# Exercícios: Aritmética (Abramo Hefez)
- 
-Resoluções e formalizações analíticas dos problemas capitulares da obra *Aritmética* (Abramo Hefez / Sociedade Brasileira de Matemática). O escopo deste módulo abrange a transição entre a intuição estrutural dos números naturais e o rigor da lógica de primeira ordem.
-
 ## Conteúdo Estrutural
 
 ### 1. Teoria de Intervalos e Elementos Ordinais
@@ -25,6 +21,8 @@ Resoluções e formalizações analíticas dos problemas capitulares da obra *Ar
 * **[Problema 1.14](problema-1-14.md):** Mapeamento do intervalo inclusivo de multiplicadores através da relação produto/multiplicando.
 * **[Problema 1.15](problema-1-15.md):** Aplicações práticas de divisibilidade (cardinalidade de pares, contagem de agrupamentos e partições temporais).
 * **[Problema 1.16](problema-1-16.md):** Extensão ordinal da multiplicação e prova da propriedade recíproca ($a \cdot c < b \cdot c \implies a < b$).
-
----
-*Nota: Todas as resoluções utilizam estritamente a sintaxe $\text{\LaTeX}$ para a renderização vetorial das fórmulas.*
+* **[Problema 1.17](problema-1-17.md):** Formalização da transitividade da relação de multiplicidade via substituição algébrica e associatividade do produto.
+* **[Problema 1.18](problema-1-18.md):** Demonstração da lei distributiva da multiplicação em relação à adição, interpretando o produto como o somatório exaustivo de termos aditivos.
+* **[Problema 1.19](problema-1-19.md):** Prova do fechamento da adição sobre o conjunto de múltiplos de um elemento comum através da fatoração distributiva.
+* **[Problema 1.20](problema-1-20.md):** Análise da diferença de múltiplos sob a restrição de ordem em $\mathbb{N}$ e prova da preservação da multiplicidade no resultado.
+* **[Problema 1.21](problema-1-21.md):** Demonstração da equivalência lógica (bicondicional) entre a multiplicidade de uma parcela e a multiplicidade da soma total, dado um termo comum.
