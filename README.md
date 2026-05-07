@@ -3,7 +3,7 @@
 Este repositório dedica-se à formalização e estudo de conceitos fundamentais da aritmética e lógica matemática.
 
 ---
-
+# Conjunto dos Números Naturais
 ## 1. Identidade e suas Propriedades
 
 Definimos a identidade de um número e como ela se comporta através do símbolo ($=$).
@@ -52,7 +52,7 @@ Dessa forma, chegamos a propriedade da comutativa da adição, $0 + 1 = 1 + 0$, 
 
 ---
 
-## 4. Definição da Adição (Teoremas)
+## 4. Teoremas
 
 ### Teorema 1: Se $x \neq y$, então $s(x) \neq s(y)$.
 
