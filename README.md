@@ -115,7 +115,3 @@ $N(0) \land \forall n(N(n) \rightarrow N(s(n))) \land \forall n\forall m((N(n) \
 *[Em construção...]*
 
 ---
-
-## Módulos do Repositório
-
-* [(./Exercícios-de-Iniciação-à-Aritmética-de-Abramo-Hefez)](https://github.com/yng-dvd/mathematical-study/tree/ce0de0f353651c81fb3fa9cda3f7c60362f5f6cd/Exerc%C3%ADcios%20de%20Inicia%C3%A7%C3%A3o%20%C3%A0%20Aritm%C3%A9tica%20de%20Abramo%20Hefez)
