@@ -55,52 +55,53 @@ Dessa forma, chegamos a propriedade da comutativa da adição, $0 + 1 = 1 + 0$, 
 ### 3.2 Subtração
 
 A subtração é definida como a inversa da adição. Ainda que não fornecida, essa definição nos ajuda a traçar certas relações entre a adição e a subtração:
-* (a + b) - b = a
-* (b - a) + a = b, para b >= a;
-* (a - b) - c = a - (b + c), para a >= b;
-* a - (b - c) = (a - b) + c
-* (a - b) - c != a - (b - c) Ex.: (3 - 1) - 2 = 0 e 3 - (1 - 2) = ∅ 
+
+* $(a + b) - b = a$
+* $(b - a) + a = b$, para $b \ge a$;
+* $(a - b) - c = a - (b + c)$, para $a \ge b$;
+* $a - (b - c) = (a - b) + c$
+* $(a - b) - c \ne a - (b - c)$ Ex.: $(3 - 1) - 2 = 0$ e $3 - (1 - 2) = \emptyset$
 
 > **Nota:** A operação da subtração não tem as propriedades da comutativa e associativa.
 
 ### 3.3 Multiplicação
 
-Dado o produto a x b dizemos que a é multiplicado b vezes ou simplesmente a vezes b. A multiplicação deriva diretamente da operação da adição, então o produto a x b pode ser compreendido como a +...+ a "b vezes". A multiplicação é formalmente definida de forma recursiva:
-* a * 0 = 0;
-* a * s(b) = a x (b + 1) = (a x b) + a.
+Dado o produto $a \times b$ dizemos que $a$ é multiplicado $b$ vezes ou simplesmente $a$ vezes $b$. A multiplicação deriva diretamente da operação da adição, então o produto $a \times b$ pode ser compreendido como $a + \dots + a$ "$b$ vezes". A multiplicação é formalmente definida de forma recursiva:
 
-Por conta dessa relação, as propriedades da multiplicação são análogas às da adição, além da inclusão das propriedades das distributivas em relação a adição: (a x (b + c)) = (a x b) + (a x c) e a subtração: (a x (b - c)) = (a x b) - (a x c) sendo b>=c. 
+* $a \cdot 0 = 0$;
+* $a \cdot s(b) = a \times (b + 1) = (a \times b) + a$.
 
-Assim como a adição tem seu elemento neutro obtido pelo elemento inverso, a multiplicação também, mas difere no elemento. Na adição o elemento neutro é 0, onde n - n = 0, sendo -n o elemento inverso, e n + 0 = n. Supondo que na multiplicação o elemento neutro fosse 0, obter-se-ia a x 0 = 0, onde seria impossível chegar até em a multiplicando por 0. 
+Por conta dessa relação, as propriedades da multiplicação são análogas às da adição, além da inclusão das propriedades das distributivas em relação a adição: $(a \times (b + c)) = (a \times b) + (a \times c)$ e a subtração: $(a \times (b - c)) = (a \times b) - (a \times c)$ sendo $b \ge c$.
 
-Então, queremos que o elemento neutro n da multiplicação seja tal que possibilite a * n = a. Usando nossa definição (a x b) + a = a, pensemos sendo a x b = c, c + a = a, quantas vezes o elemento inverso -a é necessário para que c + a = 0? A resposta é apenas um -a, sendo assim temos que a * 1 = a. Essa resposta pode ser verificada ao aplicar o elemento inverso -a: c + a - a = 0 = c = 0, se c = 0, então a x b = 0, como definimos a x 0 = 0, então b = 0. Se b = 0, então s(0) = 1. Logo, a * s(0) = a. 
+Assim como a adição tem seu elemento neutro obtido pelo elemento inverso, a multiplicação também, mas difere no elemento. Na adição o elemento neutro é $0$, onde $n - n = 0$, sendo $-n$ o elemento inverso, e $n + 0 = n$. Supondo que na multiplicação o elemento neutro fosse $0$, obter-se-ia $a \times 0 = 0$, onde seria impossível chegar até em $a$ multiplicando por $0$.
 
-A partir do elemento inverso da multiplicação, podemos chegar até a operação inversa da multiplicação intuitivamente. É chamada de divisão a operação inversa da multiplicação, de forma que (a x b) * 1/(a * b) = 1. Assim, note que a operação se resume em (a x b)/(a x b), onde a/a = 1 e b/b = 1, mas o que ocorre se tentarmos algo como a/b? Para que essa operação seja válida no conjunto dos número naturais o dividendo deve ser um múltiplo do divisor. Dessa forma o quociente pertencerá a N.
+Então, queremos que o elemento neutro $n$ da multiplicação seja tal que possibilite $a \cdot n = a$. Usando nossa definição $(a \times b) + a = a$, pensemos sendo $a \times b = c$, $c + a = a$, quantas vezes o elemento inverso $-a$ é necessário para que $c + a = 0$? A resposta é apenas um $-a$, sendo assim temos que $a \cdot 1 = a$. Essa resposta pode ser verificada ao aplicar o elemento inverso $-a$: $c + a - a = 0 \implies c = 0$, se $c = 0$, então $a \times b = 0$, como definimos $a \times 0 = 0$, então $b = 0$. Se $b = 0$, então $s(0) = 1$. Logo, $a \cdot s(0) = a$.
 
+A partir do elemento inverso da multiplicação, podemos chegar até a operação inversa da multiplicação intuitivamente. É chamada de divisão a operação inversa da multiplicação, de forma que $(a \times b) \cdot \frac{1}{a \cdot b} = 1$. Assim, note que a operação se resume em $(a \times b) / (a \times b)$, onde $a/a = 1$ e $b/b = 1$, mas o que ocorre se tentarmos algo como $a/b$? Para que essa operação seja válida no conjunto dos número naturais o dividendo deve ser um múltiplo do divisor. Dessa forma o quociente pertencerá a $\mathbb{N}$.
 
 ### 3.4 Múltiplos
 
-É considerado múltiplo de a ∈ N e k ∈ N todo produto b tal que b = a*k. Assim:
+É considerado múltiplo de $a \in \mathbb{N}$ e $k \in \mathbb{N}$ todo produto $b$ tal que $b = a \cdot k$. Assim:
 
-* a é o fator;
-* k é o multiplicador;
-* b é o múltiplo (o produto).
+* $a$ é o fator;
+* $k$ é o multiplicador;
+* $b$ é o múltiplo (o produto).
 
-Assim, podemos dizer que, se b = 0, então k = 0 ou a = 0.
-> **Nota:** Como b = 0 * k é sempre igual a 0 para qualquer que seja k ∈ N, dizemos que b (o múltiplo) de zero é apenas o próprio zero. Assim, o zero é múltiplo de qualquer número (k), mas só o zero é múltiplo de zero.
+Assim, podemos dizer que, se $b = 0$, então $k = 0$ ou $a = 0$.
 
+> **Nota:** Como $b = 0 \cdot k$ é sempre igual a $0$ para qualquer que seja $k \in \mathbb{N}$, dizemos que $b$ (o múltiplo) de zero é apenas o próprio zero. Assim, o zero é múltiplo de qualquer número ($k$), mas só o zero é múltiplo de zero.
 
 ### 3.5 Primos
 
-É número primo todo n >= 2 com n ∈ N, onde, dados os naturais a > 1 e k > 1 tal que ~(n = ak).
+É número primo todo $n \ge 2$ com $n \in \mathbb{N}$, onde, dados os naturais $a > 1$ e $k > 1$ tal que $\neg(n = a \cdot k)$.
 
 ### 3.6 Mínimo Múltiplo Comum
 
-Caso 1 (não têm fator comum): Como um múltiplo b é o produto de dois números naturais n x k, é natural que exista d onde d = a x (n x k), sendo d também múltiplo de n x k. Assim, n x k será o mínimo múltiplo comum de n e k, dado que n e k não compartilhem um fator comum (quando são primos entre si). 
+**Caso 1 (não têm fator comum):** Como um múltiplo $b$ é o produto de dois números naturais $n \times k$, é natural que exista $d$ onde $d = a \times (n \times k)$, sendo $d$ também múltiplo de $n \times k$. Assim, $n \times k$ será o mínimo múltiplo comum de $n$ e $k$, dado que $n$ e $k$ não compartilhem um fator comum (quando são primos entre si).
 
-Caso 2 (têm fator comum e são divisíveis): O que acontece, no entanto, quando n = a x k, sendo k um número primo? Então b = (a x k) x k, por conseguinte o mínimo múltiplo comum entre n e k será o próprio n = (a x k).
+**Caso 2 (têm fator comum e são divisíveis):** O que acontece, no entanto, quando $n = a \times k$, sendo $k$ um número primo? Então $b = (a \times k) \times k$, por conseguinte o mínimo múltiplo comum entre $n$ e $k$ será o próprio $n = (a \times k)$.
 
-Caso 3 (têm fator comum e não são divisíveis): E quando ocorre n = a x l para n x k onde k é um número composto k = l x m? Como mmc(n, k) quer o menor múltiplo comum de n e k, basta que mmc(n, k) = a x m x l.
+**Caso 3 (têm fator comum e não são divisíveis):** E quando ocorre $n = a \times l$ para $n \times k$ onde $k$ é um número composto $k = l \times m$? Como $\text{mmc}(n, k)$ quer o menor múltiplo comum de $n$ e $k$, basta que $\text{mmc}(n, k) = a \times m \times l$.
 
 ---
 
