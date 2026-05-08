@@ -26,8 +26,6 @@
 * **[Problema 1.19](problema-1-19.md):** Prova do fechamento da adição sobre o conjunto de múltiplos de um elemento comum através da fatoração distributiva.
 * **[Problema 1.20](problema-1-20.md):** Análise da diferença de múltiplos sob a restrição de ordem em $\mathbb{N}$ e prova da preservação da multiplicidade no resultado.
 * **[Problema 1.21](problema-1-21.md):** Demonstração da equivalência lógica (bicondicional) entre a multiplicidade de uma parcela e a multiplicidade da soma total, dado um termo comum.
-### 3. Teoria dos Múltiplos e Divisibilidade em $\mathbb{N}$ (Continuação)
-
 * **[Problema 1.22](problema-1-22.md):** Identificação do elemento mínimo do conjunto de múltiplos não nulos através da análise do multiplicador unitário em $\mathbb{N}$.
 * **[Problema 1.23](problema-1-23.md):** Geração de sequências de múltiplos comuns via fatoração e progressão geométrica simples.
 * **[Problema 1.24](problema-1-24.md):** Determinação do MMC por meio da distinção entre números coprimos, divisíveis ou com fatores comuns parciais.
