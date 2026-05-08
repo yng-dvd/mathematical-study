@@ -63,7 +63,21 @@ A subtração é definida como a inversa da adição. Ainda que não fornecida, 
 
 > **Nota:** A operação da subtração não tem as propriedades da comutativa e associativa.
 
-### 3.3 Múltiplos
+### 3.3 Multiplicação
+
+Dado o produto a x b dizemos que a é multiplicado b vezes ou simplesmente a vezes b. A multiplicação deriva diretamente da operação da adição, então o produto a x b pode ser compreendido como a +...+ a "b vezes". A multiplicação é formalmente definida de forma recursiva:
+* a * 0 = 0;
+* a * s(b) = a x (b + 1) = (a x b) + a.
+Por conta dessa relação, as propriedades da multiplicação são análogas às da adição, além da inclusão das propriedades das distributivas em relação a adição: (a x (b + c)) = (a x b) + (a x c) e a subtração: (a x (b - c)) = (a x b) - (a x c) sendo b>=c. 
+
+Assim como a adição tem seu elemento neutro obtido pelo elemento inverso, a multiplicação também, mas difere no elemento. Na adição o elemento neutro é 0, onde n - n = 0, sendo -n o elemento inverso, e n + 0 = n. Supondo que na multiplicação o elemento neutro fosse 0, obter-se-ia a x 0 = 0, onde seria impossível chegar até em a multiplicando por 0. 
+
+Então, queremos que o elemento neutro n da multiplicação seja tal que possibilite a * n = a. Usando nossa definição (a x b) + a = a, pensemos sendo a x b = c, c + a = a, quantas vezes o elemento inverso -a é necessário para que c + a = 0? A resposta é apenas um -a, sendo assim temos que a * 1 = a. Essa resposta pode ser verificada ao aplicar o elemento inverso -a: c + a - a = 0 = c = 0, se c = 0, então a x b = 0, como definimos a x 0 = 0, então b = 0. Se b = 0, então s(0) = 1. Logo, a * s(0) = a. 
+
+A partir do elemento inverso da multiplicação, podemos chegar até a operação inversa da multiplicação intuitivamente. É chamada de divisão a operação inversa da multiplicação, de forma que (a x b) * 1/(a * b) = 1. Assim, note que a operação se resume em (a x b)/(a x b), onde a/a = 1 e b/b = 1, mas o que ocorre se tentarmos algo como a/b? Para que essa operação seja válida no conjunto dos número naturais o dividendo deve ser um múltiplo do divisor. Dessa forma o quociente pertencerá a N.
+
+
+### 3.4 Múltiplos
 
 É considerado múltiplo de a ∈ N e k ∈ N todo produto b tal que b = a*k. Assim:
 
@@ -73,6 +87,16 @@ A subtração é definida como a inversa da adição. Ainda que não fornecida, 
 
 Assim, podemos dizer que, se b = 0, então k = 0 ou a = 0.
 > **Nota:** Como b = 0 * k é sempre igual 0 para qualquer que seja k ∈ N, dizemos que b (o múltiplo) de zero é apenas o próprio zero. Assim, o zero é múltiplo de qualquer número (k), mas só o zero é múltiplo de zero.
+
+
+### 3.5 Primos
+
+É número primo todo n >= 2 com n ∈ N, onde, dados os naturais a > 1 e k > 1 tal que ~(n = ak).
+
+### 3.6 Mínimo Múltiplo Comum
+
+Como um múltiplo b é o produto de dois números naturais n x k, é natural que exista d onde d = a x (n x k), sendo d também múltiplo de n x k. Assim, n x k será o mínimo múltiplo comum de n e k, dado que n e k não compartilhem um fator comum (quando são primos entre si). O que acontece, no entanto, quando n = a x k? Então b = (a x k) x k, por conseguinte o mínimo múltiplo comum entre n e k será o próprio n = (a x k).
+[Em construção... ]
 ---
 
 ## 4. Teoremas
