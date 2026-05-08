@@ -96,8 +96,11 @@ Assim, podemos dizer que, se b = 0, então k = 0 ou a = 0.
 
 ### 3.6 Mínimo Múltiplo Comum
 
-Como um múltiplo b é o produto de dois números naturais n x k, é natural que exista d onde d = a x (n x k), sendo d também múltiplo de n x k. Assim, n x k será o mínimo múltiplo comum de n e k, dado que n e k não compartilhem um fator comum (quando são primos entre si). O que acontece, no entanto, quando n = a x k? Então b = (a x k) x k, por conseguinte o mínimo múltiplo comum entre n e k será o próprio n = (a x k).
-[Em construção... ]
+Caso 1 (não têm fator comum): Como um múltiplo b é o produto de dois números naturais n x k, é natural que exista d onde d = a x (n x k), sendo d também múltiplo de n x k. Assim, n x k será o mínimo múltiplo comum de n e k, dado que n e k não compartilhem um fator comum (quando são primos entre si). 
+
+Caso 2 (têm fator comum e são divisíveis): O que acontece, no entanto, quando n = a x k, sendo k um número primo? Então b = (a x k) x k, por conseguinte o mínimo múltiplo comum entre n e k será o próprio n = (a x k).
+
+Caso 3 (têm fator comum e não são divisíveis): E quando ocorre n = a x l para n x k onde k é um número composto k = l x m? Como mmc(n, k) quer o menor múltiplo comum de n e k, basta que mmc(n, k) = a x m x l.
 
 ---
 
