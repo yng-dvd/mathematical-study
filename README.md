@@ -42,6 +42,10 @@ O primeiro e o quarto axiomas garantem que haja uma unidade mínima e que junto 
 
 ## 3. Propriedades
 
+### 3.0 Decimais
+
+Através do sistemas do número decimais sabemos que, dados os algarismos a, b, e c pertencentes ao conjunto: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} formam um número abc que pode ser descrito como a x 10² + b x 10 ¹ + c x 10⁰.
+
 ### 3.1 Adição
 
 O intervalo garantido $[0, s(0)]$ nos permite traçar que $(s(0))$ está a $1$ uma posição a mais de $0$, pois o intervalo segue uma orientação que parte da esquerda em direção a direita. Com $(s(0))$ a uma posição a direita de $0$, podemos dizer que está a $1$ uma posição a mais de $0$. 
@@ -102,6 +106,26 @@ Assim, podemos dizer que, se $b = 0$, então $k = 0$ ou $a = 0$.
 **Caso 2 (têm fator comum e são divisíveis):** O que acontece, no entanto, quando $n = a \times k$, sendo $k$ um número primo? Então $b = (a \times k) \times k$, por conseguinte o mínimo múltiplo comum entre $n$ e $k$ será o próprio $n = (a \times k)$.
 
 **Caso 3 (têm fator comum e não são divisíveis):** E quando ocorre $n = a \times l$ para $n \times k$ onde $k$ é um número composto $k = l \times m$? Como $\text{mmc}(n, k)$ quer o menor múltiplo comum de $n$ e $k$, basta que $\text{mmc}(n, k) = a \times m \times l$.
+
+
+### 3.7 Princípio da Boa Ordem
+
+Todo subconjunto não vazio de $\mathbb{N}$ possui um elemento mínimo: Se $A \subseteq \mathbb{N}$ e $A \neq \emptyset$, então existe um $m \in A$ tal que $\forall x \in A, m \leq x$.
+
+### 3.8 Definição intuitiva da divisibilidade
+
+Intuitivamente podemos dizer que um número n do conjunto dos naturais é divisível por m se m é um dos fatores de n.
+
+### 3.9 Existência de Divisores Primos
+
+Para todo número composto n, seu menor divisor d > 1, será um primo. Para todo número primo n, seu menor divisor será ele mesmo.
+
+
+### 3.10 Teorema Fundamental da Aritmética:
+
+$a = \prod p_i^{n_i}$
+
+[Demonstração a ser feita...]
 
 ---
 
