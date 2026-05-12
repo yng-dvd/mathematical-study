@@ -1,4 +1,7 @@
 # Conjunto dos Números Naturais
+
+---
+
 ## 1. Identidade e suas Propriedades
 
 Definimos a identidade de um número e como ela se comporta através do símbolo ($=$).
