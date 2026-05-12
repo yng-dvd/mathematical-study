@@ -120,7 +120,7 @@ Para todo número composto n, seu menor divisor d > 1, será um primo. Para todo
 
 $a = \prod p_i^{n_i}$
 
-[Demonstração a ser feita...]
+Sendo a = k x l e A o subjconjunto dos naturais dos fatores primos de a, então A sendo subconjunto de N tem a propriedade: Se $A \subseteq \mathbb{N}$ e $A \neq \emptyset$, então existe um $m \in A$ tal que $\forall x \in A, m \leq x$. Com isso, existindo um menor fator primo de a, esse será também o menor divisor primo de a.
 
 ---
 
