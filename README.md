@@ -1,8 +1,4 @@
-# mathematical-study
 
-Este repositório dedica-se à formalização e estudo de conceitos fundamentais da aritmética e lógica matemática.
-
----
 
 ## Módulos do repositório
 
