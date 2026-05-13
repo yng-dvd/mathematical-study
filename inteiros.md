@@ -9,3 +9,12 @@ A multiplicação continua tendo uma relação com a ordem, onde a < b, c > 0: a
 
 1 < 7
 Supondo que 1 x (-2) < 7 x (-2) = -2 < -14. Não confere, visto que -2 > -14.
+
+
+### 2 - Múltiplos
+
+### 3 - Divisores
+
+### 4 - Algoritmo de Euclides
+
+### 5 - Divisão Euclidiana
