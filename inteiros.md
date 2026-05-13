@@ -13,7 +13,9 @@ Supondo que 1 x (-2) < 7 x (-2) = -2 < -14. Não confere, visto que -2 > -14.
 
 ### 2 - Múltiplos
 
-### 3 - Divisores
+Sendo a um múltiplo de m, ele será também um múltiplo de -m. Além disso, qualquer que seja m e qualquer seja -m, eles terão os mesmos divisores a diferir nos sinais.
+
+### 3 - Máximo divisor comum ou MDC
 
 ### 4 - Algoritmo de Euclides
 
