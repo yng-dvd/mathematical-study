@@ -17,6 +17,8 @@ Sendo a um múltiplo de m, ele será também um múltiplo de -m. Além disso, qu
 
 ### 3 - Máximo divisor comum ou MDC
 
+Dados dois números inteiros a e b, o maior fator comum entre eles é chamado de máximo divisor comum (MDC).
+
 ### 4 - Algoritmo de Euclides
 
 ### 5 - Divisão Euclidiana
