@@ -21,4 +21,9 @@ Dados dois números inteiros a e b, o maior fator comum entre eles é chamado de
 
 ### 4 - Algoritmo de Euclides
 
+Um número d é divisor comum de a e b, não ambos nulos, se, e somente se, ele é um divisor comum de a e b − a:
+
+mdc(a, b) = mdc(a, b − a),
+
 ### 5 - Divisão Euclidiana
+
